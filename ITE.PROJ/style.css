@@ -234,6 +234,7 @@
     .footer{
         background: var(--normal);
         text-align: center;
+        justify-content: center;
         
     }
 
@@ -301,6 +302,13 @@
       color: white;
     }
     
+    .last{
+      background: var(--normal);
+      display: flex;
+      justify-content: center;
+    }
+
+
     @media screen and (max-width: 600px) {
       .footer .footer__wrapper{
         display: flex;
@@ -322,12 +330,13 @@
       }
 
 
-    .last{
+    .last {
         background: var(--normal);
     }
 
-    .last ul{
-        text-align: center;
+    .last{
+        display: flex;
+        justify-content: center;
     }
 
     }
